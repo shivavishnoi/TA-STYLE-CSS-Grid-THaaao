@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300;400;500&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: 'Anek Latin', sans-serif;
+  background-color: #3a4a4f;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 5rem;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #ffffff;
+  padding: 0.8rem;
+  margin: 1rem 0 1rem 0;
+  border-top: 2px solid #0292ba;
+}
+
+a {
+  text-decoration: none;
+  color: #0292ba;
+  font-weight: 500;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (300px)[3];
+      grid-template-rows: repeat(3, 300px);
+      grid-template-areas: "";
+}
+
+img {
+  width: 100%;
+}
+
+article {
+  background-color: #ffffff;
+  border-top: 2px solid #0292ba;
+}
+
+article a {
+  color: #fc2e1b;
+}
+
+.item6 {
+  grid-row: span 3;
+}
+/*# sourceMappingURL=styles.css.map */
