@@ -33,14 +33,13 @@ a {
   font-weight: 500;
 }
 
-
-
 .grid {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 300px);
-  grid-template-areas: "";
+  grid-template-areas: 'title-1 cat title-2'
+    'graph cat title-3'
+    'graph cat title-4';
 }
 
 img {
@@ -56,6 +55,26 @@ article {
   }
 }
 
+.item1 {
+  grid-area: title-1;
+}
+
+.item2 {
+  grid-area: title-2;
+}
+
+.item3 {
+  grid-area: title-3;
+}
+
+.item4 {
+  grid-area: title-4;
+}
+
+.item5 {
+  grid-area: graph;
+}
+
 .item6 {
-  grid-row: span 3;
+  grid-area: cat;
 }
