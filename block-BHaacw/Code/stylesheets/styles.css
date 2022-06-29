@@ -177,9 +177,7 @@ a {
   gap: 1rem;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  -ms-grid-rows: (300px)[3];
-      grid-template-rows: repeat(3, 300px);
-      grid-template-areas: "";
+      grid-template-areas: 'title-1 cat title-2' 'graph cat title-3' 'graph cat title-4';
 }
 
 img {
@@ -195,7 +193,41 @@ article a {
   color: #fc2e1b;
 }
 
+.item1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: title-1;
+}
+
+.item2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: title-2;
+}
+
+.item3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: title-3;
+}
+
+.item4 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: title-4;
+}
+
+.item5 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: graph;
+}
+
 .item6 {
-  grid-row: span 3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 2;
+  grid-area: cat;
 }
 /*# sourceMappingURL=styles.css.map */
