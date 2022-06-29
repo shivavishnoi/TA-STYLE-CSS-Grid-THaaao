@@ -1,0 +1,80 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1 {
+  color: $primary;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 5rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  background-color: $primary;
+  padding: 0.8rem;
+  margin: 1rem 0 1rem 0;
+  border-top: 2px solid $b-top;
+}
+
+a {
+  text-decoration: none;
+  color: $b-top;
+  font-weight: 500;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 'title-1 cat title-2'
+    'graph cat title-3'
+    'graph cat title-4';
+}
+
+img {
+  width: 100%;
+}
+
+article {
+  background-color: $primary;
+  border-top: 2px solid $b-top;
+
+  a {
+    color: $b-down;
+  }
+}
+
+.item1 {
+  grid-area: title-1;
+}
+
+.item2 {
+  grid-area: title-2;
+}
+
+.item3 {
+  grid-area: title-3;
+}
+
+.item4 {
+  grid-area: title-4;
+}
+
+.item5 {
+  grid-area: graph;
+}
+
+.item6 {
+  grid-area: cat;
+}
