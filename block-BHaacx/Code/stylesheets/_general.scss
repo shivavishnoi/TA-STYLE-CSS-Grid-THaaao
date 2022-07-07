@@ -1,0 +1,77 @@
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: $black-light;
+}
+
+.active-link {
+  color: $golden;
+}
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.7rem
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+.padding-1 {
+  padding: 1rem;
+}
+
+.padding-2 {
+  padding: 2rem;
+}
+
+.padding-2-0 {
+  padding: 2rem 1rem;
+}
+
+.btn {
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+  margin: 1rem 0;
+  cursor: pointer; //why is this not working?
+
+  &-primary {
+    color: $black-dark;
+    font-weight: 600;
+    background-color: $peach;
+    border: 2px solid black;
+  }
+
+  &-secondary {
+    border: none;
+    color: $black-light;
+    padding: 0.5rem 4rem;
+  }
+}
+
+.width-full {
+  width: 100%;
+}
+
+.font-0 {
+  font-size: 0;
+
+}
